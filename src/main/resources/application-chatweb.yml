@@ -1,0 +1,40 @@
+env-config:
+  # OpenAI API Key - https://platform.openai.com/overview
+  openai-api-key: 
+
+  # OpenAI API Base URL - https://api.openai.com
+  openai-api-base-url: https://api.openai.com
+
+  # OpenAI API Model - https://platform.openai.com/docs/models
+  openai-api-model: gpt-3.5-turbo
+
+  # set `true` to disable OpenAI API debug log
+  openai-api-disable-debug: 
+
+  # timeout
+  timeout-ms: 10000
+
+  # Rate Limit
+  max-request-per-hour:
+
+  # Secret key
+  auth-secret-key: 
+
+  # Socks Proxy Host
+  socks-proxy-host: 127.0.0.1
+
+  # Socks Proxy Port
+  socks-proxy-port: 7890
+
+  # Socks Proxy Username
+  socks-proxy-username: 
+
+  # Socks Proxy Password
+  socks-proxy-password: 
+
+  # HTTP PROXY
+  http-proxy-host: 127.0.0.1
+  
+  # HTTP PROXY Port
+  http-proxy-port: 7890
+  
